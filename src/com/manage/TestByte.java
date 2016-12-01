@@ -484,9 +484,7 @@ public static byte[] readTsByte(String path){
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
-			//String fileName = "E:/项目/行云运营支撑/收录/收录文件/5（source）.ts";
 			String fileName = "E:/data/PKzqb0k1gy74xjr5iafv.ts";
 			System.out.println("begin:"+SafeUtils.getCurrentTimeStr("yyyy-MM-dd HH:mm:ss"));
 			//byte[] data = readByte(fileName);
