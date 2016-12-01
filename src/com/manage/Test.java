@@ -42,7 +42,6 @@ public class Test {
 
 		//java调用mediainfo获取到视频音频的参数
         MediaInfo mediaInfo =new MediaInfo();
-        //mediaInfo.Open("/mediaSource/大视频/速度与激情5.mpg");
         mediaInfo.Open("F:/DOWNLOAD/mm/火星救援.HD1280超清中英双字.mp4");
         //mediaInfo.Open("\\\\10.168.20.64\\storage\\JMFW\\SCK\\2013\\09\\29\\diyunanjueiif3ae39386b4b423cba01470fd39a52e4.mpg");
         //mediaInfo.Open("\\\\10.168.21.64\\storage\\JMFW\\SCK\\2013\\09\\29\\diyunanjueiif836eebae3c54f0bbc9f222bc6f0e435.mpg");
@@ -120,12 +119,10 @@ public class Test {
         System.out.println("码率峰值:"+mediaInfo.Get(StreamKind.Audio,0,"BitRate_Maximum/String",InfoKind.Text,InfoKind.Name));
         System.out.println("采样率："+mediaInfo.Get(StreamKind.Audio,0,"SamplingRate/String",InfoKind.Text,InfoKind.Name));
 
-		
 		//关闭
         mediaInfo.Close();
 
-        
-        System.out.println("HAN MM");
+        System.out.println("DA MO WANG");
 	}
 }
 
